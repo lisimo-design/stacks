@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url(//fonts.googleapis.com/earlyaccess/notosanscanadianaboriginal.css);
+
 
 * {
   padding: 0;
@@ -14,6 +16,8 @@ html {
 body {
   background-color: hsl(60deg, 10%, 90%);
   font-weight: 300;
+  font-family: 'Noto Sans Canadian Aboriginal', sans-serif;
+
 }
 
 header {
@@ -36,6 +40,7 @@ nav a {
   color: hsl(60deg, 50%, 30%);
   font-weight: 700;
   font-size: 1.2rem;
+  font-family: 'Acme';font-size: 22px;
 }
 
 main {
@@ -45,13 +50,17 @@ main {
 
 main h2 {
   font-size: 2rem;
-  font-family: 'Acme';font-size: 22px;
+  padding-left: 20px;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+
 }
 
 main p {
   font-size: 1rem;
   margin: 1rem 0;
   color: #444;
+  font-family: Gill Sans Extrabold, sans-serif;
+
 }
 
 ul {
@@ -76,4 +85,5 @@ footer {
 footer p {
   margin: 1rem 0;
   font-size: 0.8rem;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
